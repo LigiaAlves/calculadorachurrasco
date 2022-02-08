@@ -30,3 +30,9 @@ Principais tarefas:
 <p align="center">
   <img src="https://raw.githubusercontent.com/LigiaAlves/calculadorachurrasco/main/Projeto%20Conclu%C3%ADdo.jpg" width="350">
 </p>
+
+## Expo
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LigiaAlves/calculadorachurrasco/main/Projeto%20Conclu%C3%ADdo.jpg" width="350">
+</p>
+

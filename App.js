@@ -15,23 +15,24 @@ export default function App(){
   //Informações de Referência
   return (
     <SafeAreaView style={estilos.conteiner}>
-      <Text>Calculadora de Churrasco</Text> 
-      <Text>Valores de referência</Text>
-      <Text>Proteína: Homens (300g) Mulheres (200g) Crianças (200g)</Text>
-      <Text>Carboidrato: Homens (130g) Mulheres (115g) Crianças (100g)</Text>
-      <Text>Salada: Homens (50g) Mulheres (50g) Crianças (20g)</Text>
-      <Text>Cerveja: Homens (1,5l) Mulheres (1,5l) Crianças (0ml)</Text>
-      <Text>Refrigerante: Homens (0,5l) Mulheres (0.5l) Crianças (0,5l)</Text>
+      <h1 style={{color:'#191970'}}>Calculadora de Churrasco</h1>
 
-      <Text>Cálculos</Text> 
+      <Text style={{fontSize:20, color:'#2e8b57'}}>Valores de referência</Text>
+      <Text style={{fontSize:15}}>Proteína: Homens (300g) Mulheres (200g) Crianças (200g)</Text>
+      <Text style={{fontSize:15}}>Carboidrato: Homens (130g) Mulheres (115g) Crianças (100g)</Text>
+      <Text style={{fontSize:15}}>Salada: Homens (50g) Mulheres (50g) Crianças (20g)</Text>
+      <Text style={{fontSize:15}}>Cerveja: Homens (1,5l) Mulheres (1,5l) Crianças (0ml)</Text>
+      <Text style={{fontSize:15}}>Refrigerante: Homens (0,5l) Mulheres (0.5l) Crianças (0,5l)</Text>
 
-      <Text>Quantidade de Homens, Mulheres ou Crianças</Text>
+      <Text style={{padding: 10, fontSize:20, color:'#2e8b57'}}>Cálculos</Text> 
+
+      <Text style={{fontSize:15, padding: 10}}>Quantidade de Homens, Mulheres ou Crianças</Text>
       <TextInput
       style={estilos.display}
       value= {String(valor1)}
       onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
 
-      <Text>Informe o valor de referência</Text>
+      <Text style={{fontSize:15, padding: 10}}>Informe o valor de referência</Text>
       <TextInput
       style={estilos.display}
       value= {String(valor2)}
@@ -40,10 +41,10 @@ export default function App(){
       <TouchableHighlight
       style={estilos.btn}
       onPress={()=>multiplica()}>
-          <Text>MULTIPLICAR</Text>
+          <Text style={{color:'#f5f5f5'}}>MULTIPLICAR</Text>
       </TouchableHighlight>
 
-      <Text>Resultado</Text>
+      <Text style={{fontSize:15, padding: 2}}>Resultado</Text>
       <TextInput
       style={estilos.display}
       value= {String(resultado)}
@@ -55,24 +56,34 @@ export default function App(){
 
 const estilos = StyleSheet.create({
 
-  conteiner:{
-    padding:20
+  conteiner: {
+    padding:20,
+    textAlign:'center',
+    width: 500,
+    backgroundColor: '#f5f5f5',
+
   },
 
   display: {
   borderWidth:1,
   borderRadius:10,
-  padding:10
+  padding:10,
+  textAlign:'center',
+  fontSize: 30,
+  
   },
 
+
   btn:{
-      backgroundColor:'#aaa',
+      backgroundColor:'#5f9ea0',
       padding:20,
+      borderRadius:20,
+      margin: 20,
+      fontSize: 15,
   },
 
   txtBtn:{
-
+    padding: 10,
   }
 
 });
-

@@ -33,6 +33,6 @@ Principais tarefas:
 
 ## Expo
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LigiaAlves/calculadorachurrasco/main/Projeto%20Conclu%C3%ADdo.jpg" width="350">
+  <img src="https://raw.githubusercontent.com/LigiaAlves/calculadorachurrasco/main/expo.jpg" width="350">
 </p>
 

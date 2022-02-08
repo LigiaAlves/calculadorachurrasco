@@ -1,0 +1,306 @@
+<Text>Quantidade de Mulheres</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+
+      <Text>Quantidade de Proteína</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+      
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Crianças</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+
+      <Text>Quantidade de Proteína</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+      
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Cálculo 2 - Carboidrato</Text>
+
+      <Text>Quantidade de Homens</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+
+      <Text>Quantidade de Carboidratos</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+      
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Mulheres</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Carboidratos</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Crianças</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Carboidratos</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Cálculo 3 - Salada</Text>
+
+      <Text>Quantidade de Homens</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Salada</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Mulheres</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Salada</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Crianças</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Salada</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Cálculo 4 - Cerveja</Text>
+
+      <Text>Quantidade de Homens</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Cerveja</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Mulheres</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Cerveja</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Cálculo 5 - Refrigerante</Text>
+
+      <Text>Quantidade de Homens</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Refrigerante</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Mulheres</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>
+      
+      <Text>Quantidade de Refrigerante</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
+
+      <Text>Quantidade de Crianças</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor1)}
+      onChangeText={(texto) => {setValor1 (texto)}}></TextInput>     
+      
+      <Text>Quantidade de Refrigerante</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(valor2)}
+      onChangeText={(texto) => {setValor2 (texto)}}></TextInput>
+
+      <TouchableHighlight
+      style={estilos.btn}>
+          <Text>MULTIPLICAR</Text>
+      </TouchableHighlight>
+
+      <Text>Resultado</Text>
+      <TextInput
+      style={estilos.display}
+      value= {String(resultado)}
+      onChangeText={(texto) => {setResultado (texto)}}></TextInput>
